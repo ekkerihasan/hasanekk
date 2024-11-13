@@ -1,0 +1,105 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and container styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #19032a;
+    color: #ddd7d7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #dcdae5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Section styling */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #a9a6a6;
+    border: 1px solid #0a0202;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.8em;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #d21313;
+    color: #1aafac;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #500404;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #2599a1;
+    padding: 20px 0;
+    text-align: center;
+}
